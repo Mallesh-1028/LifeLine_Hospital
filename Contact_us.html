@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+    <footer>
+        <!-- Contact Information -->
+        <section>
+            <h4>Contact Info</h4>
+            <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+        </section>
+    
+        <!-- Social Media Links with Icons -->
+        <section>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+                </a>
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+                </a>
+            </div>
+        </section>
+    
+        <!-- Quick Links / Navigation -->
+        <section>
+            <h4>Emergency Contact</h4>
+            <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+        </section>
+    
+        <!-- Copyright Information -->
+        <section class="copyright">
+            <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+    
+    </body>
+    </html>

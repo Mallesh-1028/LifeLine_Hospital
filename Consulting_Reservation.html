@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+    <main>
+        <section class="reservation">
+            <h1>Consulting Reservation</h1>
+            <form action="C:\Users\USER\Desktop\WDOS Assignment\payment_page.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="doctor">Select Doctor:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="doctor1">Dr. Fathima Leena Shafraz</option>
+                    <option value="doctor2">Dr. Lakshika Shree Ganesh</option>
+                    <option value="doctor3">Dr. Fathima Hudha Hassan</option>
+                    <option value="doctor4">Dr. Samuditha Vidanagamage</option>
+                    <option value="doctor5">Dr. Umar Noordeen</option>
+                    <option value="doctor6">Dr. Swasthikasarma Thiviasankarasarma</option>
+                    <option value="doctor7">Dr. Javindu Poonamperume</option>
+                    <option value="doctor8">Dr. Nehan Thineth Suwaris</option>
+                    <option value="doctor9">Dr. Radev Thanthilage</option>
+                    <option value="doctor10">Dr. Vishara Ambegoda</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Book an Appointment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Contact Information -->
+        <section>
+            <h4>Contact Info</h4>
+            <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+        </section>
+    
+        <!-- Social Media Links with Icons -->
+        <section>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+                </a>
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+                </a>
+            </div>
+        </section>
+    
+        <!-- Quick Links / Navigation -->
+        <section>
+            <h4>Emergency Contact</h4>
+            <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+        </section>
+    
+        <!-- Copyright Information -->
+        <section class="copyright">
+            <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>

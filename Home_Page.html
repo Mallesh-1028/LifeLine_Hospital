@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <!--header-->
+    <!--logo-->
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+    
+
+    <!--welcome banner-->
+    <section class="banner">
+        <article>
+            <h1>Welcome to Our Hospital</h1>
+           <a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html"><button>Book an Appointment</button></a>
+            <a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html"><button>Find a Doctor</button></a>
+            <p style="background-image: url('C:\Users\USER\Desktop\WDOS Assignment\pictures\hospital.png');"></p>
+        </article>
+    </section>
+
+    <!--services-->
+    <section class="info">
+        <article>
+            <figure>
+            <img src="C:\Users\USER\Desktop\sample website\pictures\Emergency_Care.png" alt="Emergency Care">
+            </figure>
+            <h2>Emergency Care</h2>
+            <p>24/7 immediate medical attention for urgent cases.</p>
+            <p>Our emergency department is equipped to handle any situation, providing quick and efficient care.</p>
+        </article>
+        <article>
+            <figure>
+            <img src="C:\Users\USER\Desktop\sample website\pictures\Outpatient.png" alt="Outpatient Services">
+            </figure>
+            <h2>Outpatient Services</h2>
+            <p>Non-emergency consultations and treatments.</p>
+            <p>Visit our outpatient department for routine check-ups and minor procedures.</p>
+        </article>
+        <article>
+            <figure>
+            <img src="C:\Users\USER\Desktop\sample website\pictures\impatient.png" alt="Inpatient Care">
+            </figure>
+            <h2>Inpatient Care</h2>
+            <p>Comprehensive care for patients requiring hospitalization.</p>
+            <p>We offer comfortable accommodations and specialized care for hospitalized patients.</p>
+        </article>
+    </section>
+    <br>
+    <!--about us-->
+    <section class="Home_about">
+       
+        <h2>About Us</h2>
+        <h1>Welcome to Lifeline Hospital!</h1>
+        <br>
+        <p>With a mission to care for and improve the quality of human life, Lifeline Hospital, Sri Lanka’s leading group of private hospitals & diagnostic facilities, offers some of the country’s most advanced clinical programs. </p>
+        <br>
+        <p>Founded in 2005, Lifeline Hospital has grown to include multiple facilities strategically located to serve our community effectively. Our network includes state-of-the-art hospitals and diagnostic centers designed to provide exceptional care and meet the diverse needs of our patients.</p>
+        <br>
+        <a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">Read More</a>
+        
+        
+
+    </section>
+<!--footer-->
+<footer>
+    <!-- Contact Information -->
+    <section>
+        <h4>Contact Info</h4>
+        <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+    </section>
+
+    <!-- Social Media Links with Icons -->
+    <section>
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook" class="social-icon">
+                <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Twitter" class="social-icon">
+                <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+            </a>
+            <a href="#" aria-label="Instagram" class="social-icon">
+                <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Quick Links / Navigation -->
+    <section>
+        <h4>Emergency Contact</h4>
+        <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+    </section>
+
+    <!-- Copyright Information -->
+    <section class="copyright">
+        <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+    </section>
+</footer>
+
+</body>
+</html>

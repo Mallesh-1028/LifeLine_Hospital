@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #2679c3; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 10px;
+    border: 1px solid #dde1e4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+figure {
+    margin: 0;
+}
+
+figure img{
+    width: 150px;
+}
+
+.logo {
+    width: 150px; 
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.about {
+    background-image: none;
+    background-color: #ffffff; 
+    border: 1px solid #dde1e4; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about h1 {
+    color: #007bff; 
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: #007bff; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    color: #333;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.about p, .about ul {
+    color: #333;
+}
+
+.branch-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.branch-info article {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #dde1e4;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.branch-info article:hover {
+    transform: scale(1.05);
+}
+
+.branch-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each branch */
+    justify-content: space-between;
+}
+
+.branch {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #dde1e4;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.branch img {
+    width: 100%; /* Ensure images are responsive */
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.branch p {
+    color: #333;
+    font-size: 14px;
+}
+
+.branch:hover {
+    transform: scale(1.05); /* Hover effect for each branch */
+}
+
+
+/* Styles for the Branch Section */
+article {
+    display: flex;
+    justify-content: space-between; /* Aligns the branch boxes in a row */
+    flex-wrap: wrap; /* Ensures boxes wrap on smaller screens */
+    gap: 20px; /* Adds space between the branch boxes */
+}
+
+article h4 {
+    text-align: center;
+    color: #007bff; /* Blue color for branch headings */
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 100%; /* Makes the image take the full width of the box */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border-radius: 5px; /* Adds rounded corners to images */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+article p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styles for Each Branch Box */
+article > div {
+    flex: 1; /* Ensures all branch boxes take equal width */
+    min-width: 250px; /* Prevents the boxes from getting too narrow */
+    max-width: 300px; /* Sets a max width for the boxes */
+    background-color: #ffffff; /* White background for the boxes */
+    border: 1px solid #dde1e4; /* Light border around the boxes */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the boxes */
+    transition: transform 0.3s ease; /* Adds a smooth hover effect */
+}
+
+/* Hover Effect for Branch Boxes */
+article > div:hover {
+    transform: scale(1.05); /* Slightly enlarges the box on hover */
+}
+
+/* Styles for Summary Table */
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space between the images and the table */
+}
+
+.summary-table th, .summary-table td {
+    border: 1px solid #dde1e4; /* Border for the table cells */
+    padding: 10px;
+    text-align: left;
+}
+
+.summary-table th {
+    background-color: #007bff; /* Blue header background */
+    color: white;
+}
+
+.summary-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Light grey background for alternate rows */
+}
+
+.summary-table tfoot {
+    background-color: #e6f2ff; /* Light blue background for the footer */
+}
+
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.summary-table th, .summary-table td {
+    border: 1px solid #dde1e4;
+    padding: 10px;
+    text-align: left;
+}
+
+.summary-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.summary-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.summary-table tfoot {
+    background-color: #e6f2ff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    border: 1px solid #0056b3; 
+    border-radius: 5px;
+}
+
+footer section {
+    margin-right: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

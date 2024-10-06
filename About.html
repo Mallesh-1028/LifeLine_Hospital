@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Lifeline Hospital</h1>
+            <p>Welcome to Lifeline Hospital!</p>
+            <p>With a mission to enhance the quality of human life, Lifeline Hospital, a leading private healthcare provider, offers some of the most advanced clinical programs in the region.</p>
+            <br>
+            <p>Founded in 2005, Lifeline Hospital has grown to include multiple facilities strategically located to serve our community effectively. Our network includes state-of-the-art hospitals and diagnostic centers designed to provide exceptional care and meet the diverse needs of our patients.</p>
+
+            <h2>Our Vision</h2>
+            <p>To be a premier healthcare provider with the highest standards of clinical excellence and compassionate care.</p>
+
+            <h2>Our Mission</h2>
+            <p>To improve the quality of human life by providing ethical and cutting-edge healthcare solutions with a commitment to excellence and innovation.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <br>
+                <li>Compassionate care with a personal touch.</li>
+                <li>Dedication to community well-being.</li>
+                <li>Support and growth for our team members.</li>
+                <li>Innovation and forward-thinking approach.</li>
+                <li>Respect for all individuals and stakeholders.</li>
+            </ul>
+            <br>
+
+            <h2>Our Reach</h2>
+            <p>Lifeline Hospital is proud to offer a wide range of medical services across our facilities. Our comprehensive network includes:</p>
+            <br>
+            <ul>
+                <li>Multiple strategically located hospitals.</li>
+                <li>Advanced diagnostic and laboratory services.</li>
+                <li>A dedicated team of healthcare professionals delivering high-quality patient care.</li>
+            </ul>
+            <br>
+
+            <h2>Quality and Safety</h2>
+            <p>Our commitment to quality and safety is reflected in our adherence to rigorous healthcare standards and certifications. Lifeline Hospital is accredited by leading healthcare organizations for our excellence in patient care and safety.</p>
+
+            <h2>Our Team</h2>
+            <p>Our team of dedicated and skilled healthcare professionals forms the core of Lifeline Hospital. We invest in ongoing training and development to ensure our team is at the forefront of medical advancements and best practices.</p>
+
+            <h2>Why Lifeline Hospital?</h2>
+            <p>Our name represents our commitment to providing essential healthcare services and improving the lives of our patients. We adhere to international standards and offer advanced clinical programs for a wide range of medical conditions, ensuring positive outcomes and comprehensive care.</p>
+
+            <h2>Lifeline Hospital’s Sustainability Approach</h2>
+            <p>We are committed to making a positive impact on the environment through sustainable practices. Lifeline Hospital is actively engaged in environmental initiatives, including partnerships focused on conservation and sustainability projects.</p>
+
+            <p>Join us on our journey to foster a healthier future and contribute to the well-being of our community and environment. Together, we can make a significant difference, one step at a time.</p>
+            <h3>Our Branches</h3>
+<article class="branch-info">
+    <div class="branch">
+        <h4>Branch 1 - Kandy</h4>
+        <img src="C:\Users\USER\Desktop\WDOS Assignment\Branches\Branch 1.jpg" alt="Branch 1">
+        <p>Description: Located in the heart of Kandy, this branch offers comprehensive diagnostic services and specialized treatments. Our state-of-the-art facility is known for its patient care and modern medical technology.</p>
+    </div>
+    <div class="branch">
+        <h4>Branch 2 - Colombo</h4>
+        <img src="C:\Users\USER\Desktop\WDOS Assignment\Branches\Branch 2.jpg" alt="Branch 2">
+        <p>Description: Our Colombo branch is a flagship facility with advanced surgical services and outpatient care. It's renowned for its emergency care and multi-specialty treatments.</p>
+    </div>
+    <div class="branch">
+        <h4>Branch 3 - Galle</h4>
+        <img src="C:\Users\USER\Desktop\WDOS Assignment\Branches\Branch 3.jpg" alt="Branch 3">
+        <p>Description: Nestled in the coastal city of Galle, this branch specializes in rehabilitation and wellness programs. Our serene location and experienced staff provide the best post-surgical care and recovery options.</p>
+    </div>
+</article>
+
+<!-- Table section below branch images -->
+<h2>Branch Contact Information</h2>
+<table class="summary-table">
+    <thead>
+        <tr>
+            <th>Branch</th>
+            <th>Location</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Branch 1</td>
+            <td>Kandy</td>
+            <td>+940710601891</td>
+        </tr>
+        <tr>
+            <td>Branch 2</td>
+            <td>Colombo</td>
+            <td>+940710601892</td>
+        </tr>
+        <tr>
+            <td>Branch 3</td>
+            <td>Galle</td>
+            <td>+940710601893</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">For more information, please contact us.</td>
+        </tr>
+    </tfoot>
+</table>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Contact Information -->
+        <section>
+            <h4>Contact Info</h4>
+            <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+        </section>
+    
+        <!-- Social Media Links with Icons -->
+        <section>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+                </a>
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+                </a>
+            </div>
+        </section>
+    
+        <!-- Quick Links / Navigation -->
+        <section>
+            <h4>Emergency Contact</h4>
+            <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+        </section>
+    
+        <!-- Copyright Information -->
+        <section class="copyright">
+            <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>

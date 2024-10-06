@@ -1,0 +1,49 @@
+.service-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-items article {
+    flex: 1;
+    min-width: 200px;
+    border: 1px solid #dde1e4;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-items article:hover {
+    transform: scale(1.05);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.services article {
+    flex: 1 1 calc(20% - 40px); /* Ensures 5 items per row */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dde1e4;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.services article:hover {
+    transform: scale(1.05);
+}
+
+.services img {
+    width: 100px;
+    height: auto;
+}
+
+.services figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}

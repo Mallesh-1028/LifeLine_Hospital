@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="medicine-gallery">
+            <h2>Popular Medicines</h2>
+            <div class="medicine-row">
+                <article class="medicine-item">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Aspirin.png" alt="Aspirin">
+                    <h3>Aspirin</h3>
+                    <p>Used for pain relief and anti-inflammatory purposes.</p>
+                </article>
+                <article class="medicine-item">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Ibuprofen.png" alt="Ibuprofen">
+                    <h3>Ibuprofen</h3>
+                    <p>Non-steroidal anti-inflammatory drug for pain and fever reduction.</p>
+                </article>
+                <article class="medicine-item">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Paracetamol.png" alt="Paracetamol">
+                    <h3>Paracetamol</h3>
+                    <p>Effective for treating headaches, muscle pain, and fever.</p>
+                </article>
+                <article class="medicine-item">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Omeprazole.png" alt="Omeprazole">
+                    <h3>Omeprazole</h3>
+                    <p>Treats acid reflux, heartburn, and other stomach issues.</p>
+                </article>
+                <article class="medicine-item">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Penicillin.png" alt="Penicillin">
+                    <h3>Penicillin</h3>
+                    <p>Antibiotic used to treat bacterial infections.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="pharmacy">
+            <h1>Pharmacy</h1>
+            <form action="#" method="post">
+                <label for="medicine">Select Medicine:</label>
+                <select id="medicine" name="medicine" required>
+                    <option value="aspirin">Aspirin</option>
+                    <option value="ibuprofen">Ibuprofen</option>
+                    <option value="paracetamol">Paracetamol</option>
+                    <option value="omeprazole">Omeprazole</option>
+                    <option value="domperidone">Domperidone</option>
+                    <option value="viagra">Viagra</option>
+                    <option value="panadol">Panadol</option>
+                    <option value="zolpidem">Zolpidem</option>
+                    <option value="penicillin">Penicillin</option>
+                    <option value="metoprolol">Metoprolol</option>
+                    <option value="triptan">Triptan</option>
+                    <option value="loperamide">Loperamide</option>
+                    <option value="inhaled corticosteroids">Inhaled corticosteroids</option>
+                    <option value="sulfonylurea">Sulfonylurea</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <a href="C:\Users\USER\Desktop\WDOS Assignment\payment_page.html" class="button">Order Medicine</a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Contact Information -->
+        <section>
+            <h4>Contact Info</h4>
+            <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+        </section>
+    
+        <!-- Social Media Links with Icons -->
+        <section>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+                </a>
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+                </a>
+            </div>
+        </section>
+    
+        <!-- Quick Links / Navigation -->
+        <section>
+            <h4>Emergency Contact</h4>
+            <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+        </section>
+    
+        <!-- Copyright Information -->
+        <section class="copyright">
+            <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>

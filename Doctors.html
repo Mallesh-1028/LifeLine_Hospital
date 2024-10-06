@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifeline Hospital</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\Main.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\WDOS Assignment\CSS_home.css"> 
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\sample website\all.css">
+        <link rel="icon" type="image/png" href="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png"> <!-- Hospital logo favicon -->
+    </head>
+    
+<body>
+    <header>
+        <!--logo-->
+        <figure>
+            <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\logo final.png" alt="Lifeline Hospital Logo" />
+        </figure>
+        
+        <!--hamburger menu icon-->
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        
+        <!--navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Home_Page.html">Home</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\About.html">About Us</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Services.html">Services</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Doctors.html">Doctors</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Consulting_Reservation.html">Consulting Reservation</a></li>
+                <li><a href="C:\Users\USER\Desktop\WDOS Assignment\Pharmacy.html">Pharmacy</a></li>
+            </ul>
+            <script>
+                function toggleMenu() {
+                    const nav = document.querySelector('nav ul');
+                    nav.classList.toggle('active');
+                }
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <section class="doctors">
+            <h1>Meet Our Doctors</h1>
+            <div class="doctor-grid">
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Leena.jpg" alt="Doctor 1">
+                    <h2>Dr. Leena Shafraz</h2>
+                    <p>Expert in Psychiatric.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Lakshi.jpg" alt="Doctor 2">
+                    <h2>Dr. Lakshika Shree Ganesh</h2>
+                    <p>Expert in Ghastrology.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Hudha.jpg" alt="Doctor 3">
+                    <h2>Dr. Hudha Hassan</h2>
+                    <p>Expert in Gynecology.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Samu.jpg" alt="Doctor 4">
+                    <h2>Dr. Samuditha Vidanagamage</h2>
+                    <p>Specialist in Internal Medicine.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Umer.jpg" alt="Doctor 5">
+                    <h2>Dr. Umar Noordeen</h2>
+                    <p>Specialist in Pediatrics.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Swasthi.jpg" alt="Doctor 6">
+                    <h2>Dr. Swasthikasarma Thiviasankarasarma</h2>
+                    <p>Surgeon with over 20 years of experience.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Javi.jpg" alt="Doctor 7">
+                    <h2>Dr. Javindu Poonamperume</h2>
+                    <p>Specialist in Cardiology.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Nehan.jpg" alt="Doctor 8">
+                    <h2>Dr. Nehan Thineth Suwaris</h2>
+                    <p>Specialist in Beerology.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Radev.jpg" alt="Doctor 9">
+                    <h2>Dr. Radev Thanthilage</h2>
+                    <p>Specialist in Neurology.</p>
+                </article>
+                <article>
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\Doctors Pic\Vishara.jpg" alt="Doctor 10">
+                    <h2>Dr. Vishara Ambegoda</h2>
+                    <p>Specialist in Radiology.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Contact Information -->
+        <section>
+            <h4>Contact Info</h4>
+            <p>8/1 Vidiyartha MW Kandy <br> +940710601891 <br> Malleshsarath25@gmail.com</p>
+        </section>
+    
+        <!-- Social Media Links with Icons -->
+        <section>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Facebook.png" alt="Facebook" />
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Twitter.png" alt="Twitter" />
+                </a>
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <img src="C:\Users\USER\Desktop\WDOS Assignment\pictures\Instagram.png" alt="Instagram" />
+                </a>
+            </div>
+        </section>
+    
+        <!-- Quick Links / Navigation -->
+        <section>
+            <h4>Emergency Contact</h4>
+            <p>For emergencies, please call: <br> <strong>1990</strong> (24/7 Emergency Hotline)</p>
+        </section>
+    
+        <!-- Copyright Information -->
+        <section class="copyright">
+            <p>&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>
